@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todoApp">
+        <h1 class="title">Todo App</h1>
+
+        <form action="" id="todoForm">
+          <div class="todoItm">
+            <input
+              required
+              type="text"
+              name=""
+              id="todoInput"
+              placeholder="Enter a Todo Hare"
+            />
+          </div>
+          <div class="submitBtn">
+            <button id="submitBtn" type="submit">Add Todo</button>
+          </div>
+        </form>
+        <ul class="todoLists"></ul>
+
+        <p id="notification"></p>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
